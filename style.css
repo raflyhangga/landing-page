@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Starts */
+
+header {
+    width: 100%;
+    background-color: #1f2937;
+    display: flex;
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem 5rem;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+header .links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header .links ul li a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+/* Header Ends */
+
+/* Hero Section Starts */
+
+.hero {
+    background-color: #1f2937;
+    padding: 5rem 5rem;
+    display: flex;
+    gap: 10px;
+}
+
+.hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* max-width: 25rem; */
+}
+
+.hero .hero-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero .hero-text p {
+    font-weight: 100;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero .hero-text button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: .8rem;
+    border-radius: 20px;
+    border: none;
+    max-width: 10rem;
+}
+
+.hero img {
+    min-width: 60%;
+    border-radius: 20px;
+}
+
+/* Hero Section Ends */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 9rem;
+}
+
+.cards h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cards .container {
+    margin-top: 4.5rem;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.cards .container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px ;
+    text-align: center;
+}
+
+.cards .container .card img {
+    max-width: 130px;
+    max-height: 130px;
+    border-radius: 5px;
+}
+
+/* .cards .container .card .box {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+} */
+
+.cards .container .card p {
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 6px;
+}
+
+/* Cards End */
+
+/* Quotes Starts */
+
+.quotes {
+    background-color: #e5e7eb;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes .container {
+    max-width: 50rem;
+}
+
+.quotes .container p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quotes .container h3 {
+    text-align: end;
+}
+
+/* Quotes Ends */
+
+/* Modal Starts */
+
+.modal {
+    background-color: #3882f6;
+    border-radius: 9px;
+    margin: 5rem 7rem;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal .text {
+    line-height: 1.2;
+}
+
+.modal .text h2 {
+    color: #e5e7eb;
+}
+
+.modal .text p {
+    font-weight: 100;
+    color: #e5e7eb;
+}
+
+.modal button {
+    border: 3px solid #f9faf8;
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: .5rem 3rem;
+    color: #e5e7eb;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* Modal Ends */
+footer {
+    height: 6rem;
+    background-color: #1f2937;
+    font-weight: 900;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer Starts */
